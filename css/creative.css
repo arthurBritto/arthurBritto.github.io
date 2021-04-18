@@ -2,9 +2,6 @@ html,
 body {
     width: 100%;
     height: 100%;
-}
-
-body {
     font-family: Merriweather, 'Helvetica Neue', Arial, sans-serif;
 }
 
@@ -195,6 +192,12 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+.lastdiv{
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 50%;
+    width: 100%;
+    padding: 100px;
 }
 
 header .header-content {
