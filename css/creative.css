@@ -46,7 +46,17 @@ h6 {
     background-size: cover;
     -o-background-size: cover;
 }
-.sectionseparator .sectionsepcontent {
+.sectionseparator2{
+    width: 100%;
+    height: 210px;
+    background-image: url('../resources/riodejar.jpg');
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.sectionsepcontent {
     position: relative;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
