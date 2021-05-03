@@ -1,8 +1,8 @@
-var after=""
 
 
 function fetchMemes(){
     
+    var after=""
     const memeBtn=document.getElementById("memeBtn")
     
     if(document.getElementById("memes")){
