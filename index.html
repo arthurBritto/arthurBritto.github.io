@@ -33,6 +33,9 @@
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="stylesheet" href="css/creative.css" type="text/css">
     <link rel="shortcut icon" type="image/jpg" href="resources/favicon.ico" />
+    <!--Email script-->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="emailsender.js"></script>
 </head>
 
 <body id="page-top" data-new-gr-c-s-check-loaded="14.1005.0" data-gr-ext-installed="">
@@ -345,19 +348,19 @@
                 <div style="padding: 12px">
                     <br><br>
                     <h3>Let's get in contact</h3><br>
-                    <form>
+                    <form method="POST">
                         <div class="form-group">
-                            <input type="text" class="form-control" id="exampleInputFirstName" placeholder=" Name"
+                            <input type="text" class="form-control name" id="exampleInputFirstName" placeholder=" Name"
                                 required>
                         </div>
                         <div class="form-group">
-                            <input type="email" class="form-control" id="exampleInputEmail1"
+                            <input type="email" class="form-control email" id="exampleInputEmail1"
                                 aria-describedby="emailHelp" placeholder="Enter email" required>
                             <small id="emailHelp" class="form-text text-muted">I'll never share your email with anyone
                                 else.</small>
                         </div>
-                        <div class="form-group">
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                      <div class="form-group">
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"
                                 placeholder="Say something nice 2 me your beautiful thing."></textarea>
                         </div>
                         <div class="form-check">
