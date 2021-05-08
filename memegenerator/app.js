@@ -2,16 +2,16 @@
 
 function fetchMemes(){
     
-    var after=""
+    var after=''
     const memeBtn=document.getElementById("memeBtn")
     
     if(document.getElementById("memes")){
         document.getElementById("memes").remove()
     }
 
-    let parentdiv=document.createElement("div")
-    parentdiv.id="memes"
-    fetch("https://www.reddit.com/r/memes.json?after=${after}")
+    let parentdiv=document.createElement('div')
+    parentdiv.id='memes'
+    fetch('https://www.reddit.com/r/memes.json?after=${after}')
     .then(response => response.json())
     .then(body => {
         after=body.data.after
