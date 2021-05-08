@@ -9,7 +9,7 @@ function submitForm(e){
     let message = document.querySelector(".message").value;
 
     sendEmail(name, email, message);
-    document.querySelectorAll.reset();
+    document.querySelector(".contact-form").reset();
 }
 
 
@@ -24,7 +24,6 @@ function sendEmail(name, email, message) {
         Subject: `${name} send you a message from your Website`,
         Body: `Name: ${name} <br/> Email: ${email} <br/>
         Message: ${message}`,
-    }).then(
-        message => alert("Message sucessfully sent")
-    );
+        
+    }).then( message => alert("Message sucessfully sent"));
 }
