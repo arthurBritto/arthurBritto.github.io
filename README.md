@@ -2,14 +2,20 @@
 My personal webpage
 
 ## Features
-TODO
+
 - Form to contact
-- Projects page inside wip
+- CV viewer & downloader
+- Pokemon search API
+- Memes random API
+- Phrases random API
+- MUCH MORE...
 
 ## Technologies:
 
 - Html
 - Css 
+- Sass
+- Bootstrap
 - JavaScript
 ----
 
