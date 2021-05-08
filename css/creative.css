@@ -268,7 +268,7 @@ header .header-content .header-content-inner p {
     }
 }
 
-@media(min-width:1200px) {
+@media(min-width:900px) {
     .gutter2 .col-lg-3 {
         width: 33,3334%;
     }
