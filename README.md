@@ -8,6 +8,7 @@ My personal webpage
 - Pokemon search API
 - Memes random API
 - Phrases random API
+- 3D model with three.js
 - MUCH MORE...
 
 ## Technologies:
@@ -17,6 +18,7 @@ My personal webpage
 - Sass
 - Bootstrap
 - JavaScript
+- three.js
 ----
 
 **Under development**
