@@ -41,10 +41,7 @@
 
 <body id="page-top" data-new-gr-c-s-check-loaded="14.1005.0" data-gr-ext-installed="">
 
-
     <script src="js/three.js"></script>
-
-    <script type="module" src="js/indexScript.js"></script>
 
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top affix-top">
         <div class="container-fluid">
@@ -56,10 +53,10 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">ArthurosPage</a>
+                <a class="navbar-brand page-scroll" style="padding-left: 5ch;" href="#page-top">ArthurosPage</a>
             </div>
 
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div class="collapse navbar-collapse" style="padding-right: 5ch;" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
                         <a class="page-scroll" href="index.html">Home</a>
@@ -67,14 +64,10 @@
                     <li>
                         <a class="page-scroll" href="aboutme/index">Myself&I</a>
                     </li>
-                    <li>
-                        <a class="page-scroll" href="https://github.com/arthurBritto">Projects</a>
-                    </li>
                 </ul>
             </div>
         </div>
     </nav>
-
     <header>
         <div class="header-content">
             <div class="header-content-inner">
@@ -83,6 +76,9 @@
             </div>
         </div>
     </header>
+
+    <canvas id="cubes"></canvas>   
+    <script type="module" src="js/indexScript.js"></script>
 
     <section class="bg-primary" id="about">
         <div class="container">
@@ -108,80 +104,201 @@
         </div>
     </div>
 
-
     <section class="bg-primary" id="about">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Some of my work</h2><br>
+                    <h2 class="section-heading">Languages and frameworks</h2>
                 </div>
             </div>
         </div>
-    </section>
+    </section> 
+
     <div class="container">
         <div class="row">
             <div class="text-center">
                 <p>
-                <h4 class="section-heading"> Languages and Tools:</h4><br>
+                <br>
                 <a href="https://www.gnu.org/software/bash/" target="_blank"> <img
                         src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40"
                         height="40" /></a>
                 <a href="https://getbootstrap.com" target="_blank"> <img
                         src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg"
-                        alt="bootstrap" width="40" height="40" /> </a>
+                        alt="bootstrap" width="40" height="50" /> </a>
                 <a href="https://www.w3schools.com/css/" target="_blank">
                     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
-                        alt="css3" width="40" height="40" /> </a> <a href="https://git-scm.com/" target="_blank">
-                    <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40"
-                        height="40" />
-                </a> <a href="https://www.w3.org/html/" target="_blank"> <img
+                        alt="css3" width="40" height="40" /> </a> 
+                <a href="https://git-scm.com/" target="_blank">
+                    <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-ar21.svg" alt="git" width="90"
+                        height="50" /></a>
+                <a href="https://www.w3.org/html/" target="_blank"> <img
                         src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
                         alt="html5" width="40" height="40" /> </a>
                 <a href="https://www.java.com" target="_blank">
-                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg"
-                        alt="java" width="40" height="40" /> </a>
+                    <img src="https://www.vectorlogo.zone/logos/java/java-ar21.svg"
+                        alt="java" width="90" height="50" /> </a>
                 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img
                         src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
                         alt="javascript" width="40" height="40" /> </a>
                 <a href="https://www.linux.org/" target="_blank">
                     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg"
                         alt="linux" width="40" height="40" /> </a>
-                <a href="https://www.mathworks.com/" target="_blank">
-                    <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/master/icons/mathworks.svg"
-                        alt="matlab" width="40" height="40" /> </a>
+                <a> <img src="https://www.vectorlogo.zone/logos/angular/angular-ar21.svg"
+                        alt="angular" width="110" height="70" /> </a>
+                <a> <img src="https://www.vectorlogo.zone/logos/jquery/jquery-ar21.svg"
+                        alt="jquery" width="110" height="70" /> </a>
+                <a> <img src="https://www.vectorlogo.zone/logos/reactjs/reactjs-ar21.svg"
+                        alt="react" width="110" height="50" /> </a>
+                <a> <img src="https://www.vectorlogo.zone/logos/godotengine/godotengine-ar21.svg"
+                        alt="godot" width="110" height="70" /> </a>
+                <a> <img src="https://www.vectorlogo.zone/logos/atlassian_jira/atlassian_jira-ar21.svg"
+                        alt="jira" width="150" height="80" /> </a>
+                <a> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-ar21.svg"
+                        alt="Tailwind" width="140" height="80" /> </a>
+                <a> <img src="https://www.vectorlogo.zone/logos/docker/docker-ar21.svg"
+                        alt="docker" width="120" height="80" /> </a>
+                <a> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-ar21.svg"
+                        alt="firebase" width="120" height="70" /> </a>
+                <a href="https://spring.io/" target="_blank"> 
+                    <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring" width="50"
+                    height="50" /> </a>
                 <a href="https://www.mysql.com/" target="_blank">
                     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg"
-                        alt="mysql" width="40" height="40" /> </a>
+                        alt="mysql" width="60" height="80" /> </a>
                 <a href="https://nodejs.org" target="_blank">
                     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
-                        alt="nodejs" width="40" height="40" /> </a>
+                        alt="nodejs" width="110" height="80" /> </a>
                 <a href="https://postman.com" target="_blank">
                     <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40"
                         height="40" /> </a>
-                <a href="https://spring.io/" target="_blank"> <img
-                        src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring" width="40"
-                        height="40" /> </a>
-                <a href="https://spring.io/" target="_blank"> <img
-                        src="https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-icon.svg" alt="typescript" width="40"
-                        height="40" /> </a>
-                <a href="https://spring.io/" target="_blank"> <img
-                        src="https://upload.vectorlogo.zone/logos/threejs/images/3453d6aa-b9c2-48b3-b2c1-97aa80b5525e.html" alt="Three.js" width="40"
-                        height="40" /> </a> </p>
-
+                <a> <img src="https://upload.vectorlogo.zone/logos/threejs/images/3453d6aa-b9c2-48b3-b2c1-97aa80b5525e.svg" 
+                    alt="Three.js" width="110" height="60" /> </a> 
+                <a> <img src="https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-icon.svg" 
+                    alt="typescript" width="40"height="40" /> </a>
+                </p>
             </div>
         </div>
     </div>
+
+    <section class="bg-primary" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Some of my work</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section class="no-padding" id="portfolio">
         <div class="container-fluid">
             <div class="row no-gutter">
                 <div class="col-lg-3 col-sm-6">
                     <div class="portfolio-box">
-                        <a href="https://github.com/arthurBritto/Runner/blob/main/README.md"><img
-                                src="resources/runner.jpg" class="img-responsive" alt="">
+                        <a href="https://www.canva.com/design/DAEfnt8Ilis/UFXm3BX7kl1TGegSgV6dIA/view?utm_content=DAEfnt8Ilis&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink#1"><img
+                                src="resources/methodik.png" class="img-responsive" alt="">
                             <div class="portfolio-box-caption">
                                 <div class="portfolio-box-caption-content">
                                     <div class="project-category text-faded">
-                                        Runner
+                                        methodik <br> Android App
+                                        <br> Full Stack Mobile
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="portfolio-box">
+                        <a href="https://jllarmodel.web.app/"><img src="resources/jll.png"
+                                class="img-responsive" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        jll app<br> mobile AR Viewer 
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="portfolio-box">
+                        <a href="https://analovepets.pt/"><img
+                                src="resources/analovepets.png" class="img-responsive" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        Tailwind responsive Website <br> Full Stack Project
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="portfolio-box">
+                        <a href="https://hyperverse7.web.app/"><img
+                                src="resources/hyperverse.png" class="img-responsive" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        Cambria <br> mobile Ar viewer App 
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="portfolio-box">
+                        <a href="https://hyperware7.web.app/scene.html"><img
+                                src="resources/hyperware.png" class="img-responsive" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        Metaverse Design Portfolio <br> for Oculus Quest2 & Browser
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="portfolio-box">
+                        <a href="https://testevr-7d5ae.web.app/scene.html?"><img src="resources/call_room.png"
+                                class="img-responsive" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        VR call room <br> integrated with pc meeting
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="portfolio-box">
+                        <a href="https://insuletxr.web.app/"><img src="resources/xr_experience.png"
+                                class="img-responsive" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        XR experience <br> VR and web
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="portfolio-box">
+                        <a href="pokemon/pokemon.html"><img src="resources/pika.jpg" class="img-responsive" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        Pokemon api <br> search engine
                                     </div>
                                 </div>
                             </div>
@@ -195,6 +312,61 @@
                             <div class="portfolio-box-caption">
                                 <div class="portfolio-box-caption-content">
                                     <div class="project-category text-faded">
+                                        ChatServer on terminal (code) <br> build in java from scratch 
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="portfolio-box">
+                        <a href="https://github.com/arthurBritto/hackathon24hr"><img src="resources/adventurer.png"
+                                class="img-responsive" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        Adventurer <br> Hackathon project (code) <br> website made in 24hrs
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="portfolio-box">
+                        <a href="memegenerator/index.html"><img src="resources/meme.png" class="img-responsive" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        MemesGenerator <br> 9gag alternative website
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="portfolio-box">
+                        <a href="https://github.com/arthurBritto/Runner/blob/main/README.md"><img
+                                src="resources/runner.jpg" class="img-responsive" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        Runner <br> Game made with a graphic library <br> build in java from scratch (code)
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- <div class="col-lg-3 col-sm-6">
+                    <div class="portfolio-box">
+                        <a href="https://github.com/arthurBritto/ChatServer"><img src="resources/chatserver.jpg"
+                                class="img-responsive" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
                                         ChatServer
                                     </div>
                                 </div>
@@ -202,91 +374,47 @@
                         </a>
                     </div>
                 </div>
-
                 <div class="col-lg-3 col-sm-6">
                     <div class="portfolio-box">
-                        <a href="https://github.com/R2D2-ztx/MapEditor/blob/master/README.md"><img
-                                src="resources/mape.png" class="img-responsive" alt="">
-                            <div class="portfolio-box-caption">
-                                <div class="portfolio-box-caption-content">
-                                    <div class="project-category text-faded">
-                                        MapEditor
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="portfolio-box">
-                        <a href="https://github.com/arthurBritto/hackathon24hr"><img src="resources/adventurer.jpg"
+                        <a href="https://github.com/arthurBritto/hackathon24hr"><img src="resources/adventurer.png"
                                 class="img-responsive" alt="">
                             <div class="portfolio-box-caption">
                                 <div class="portfolio-box-caption-content">
                                     <div class="project-category text-faded">
-                                        Adventurer
+                                        Defi made in react
                                     </div>
                                 </div>
                             </div>
                         </a>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="bg-primary" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Some weirdly useful API's</h2>
-                    <hr class="light">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="no-padding" id="portfolio">
-        <div class="container-fluid">
-            <div class="row gutter2">
-                <div class="col-lg-4 col-sm-12">
+                <div class="col-lg-3 col-sm-6">
                     <div class="portfolio-box">
                         <a href="memegenerator/index.html"><img src="resources/meme.png" class="img-responsive" alt="">
                             <div class="portfolio-box-caption">
                                 <div class="portfolio-box-caption-content">
                                     <div class="project-category text-faded">
-                                        MemesGenerator
-                                    </div>
-                                </div>
-                            </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-12">
-                    <div class="portfolio-box">
-                        <a href="pokemon/pokemon.html"><img src="resources/pika.jpg" class="img-responsive" alt="">
-                            <div class="portfolio-box-caption">
-                                <div class="portfolio-box-caption-content">
-                                    <div class="project-category text-faded">
-                                        Pokemon
+                                        Article 1
                                     </div>
                                 </div>
                             </div>
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-12">
+                <div class="col-lg-3 col-sm-6">
                     <div class="portfolio-box">
-                        <a href="booking-fire.html"><img src="resources/phrasecoming.jpg" class="img-responsive" alt="">
+                        <a href="https://github.com/arthurBritto/Runner/blob/main/README.md"><img
+                                src="resources/runner.jpg" class="img-responsive" alt="">
                             <div class="portfolio-box-caption">
                                 <div class="portfolio-box-caption-content">
                                     <div class="project-category text-faded">
-                                        DailyPhrase
+                                        Article 2
                                     </div>
                                 </div>
                             </div>
                         </a>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
@@ -294,23 +422,17 @@
     <aside class="bg-dark">
         <div class="container text-center">
             <div class="call-to-action"><br><br>
-                <h3>Problems to be solved, new
-                    things to be learnt, challenges
-                    to be tackled, entire worlds to
-                    be eagerly created from scratch. Trying
-                    to turn this everlasting learning
-                    addiction of mine into software
-                    solutions for my fellow humans</h3><br><br>
+                <br><br>
             </div>
         </div>
-    </aside>
+    </aside> 
+
     <div>
         <div class="sectionseparator2">
             <div class="sectionsepcontent">
             </div>
         </div>
     </div>
-
 
     <aside class="bg-dark">
         <div class="container text-center">
@@ -319,20 +441,24 @@
             </div>
         </div>
     </aside>
-    <div class="lastdiv">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <div class="text-center">
-                    <h3 class="section-heading" style="color: black;"> Feel free to contact</h3><br>
-                    <h4>I will get back to you as soon as possible!</h4>
-                    <h4><a href="arthurBrittoCV.pdf" target="_blank" class="link" style="color: red;" download>Download
-                            CV </a><a href="arthurBrittoCV.pdf" class="link" style="color: blue;"> View CV</a></h4>
-                    <h4><a href="mailto:arthurbrittos@gmail.com">arthurbrittos@gmail.com</a></h4>
-                    <h4>(+351) 93204 6886</h4>
+
+    <aside>
+        <div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="text-center">
+                        <h3 class="section-heading" style="color: black;"> Feel free to contact</h3><br>
+                        <h4>I will get back to you as soon as possible!</h4>
+                        <h4><a href="arthurBrittoCV.pdf" target="_blank" class="link" style="color: red;" download>Download
+                                CV </a><a href="arthurBrittoCV.pdf" class="link" style="color: blue;"> View CV</a></h4>
+                        <h4><a href="mailto:arthurbrittos@gmail.com">arthurbrittos@gmail.com</a></h4>
+                        <h4>(+351) 93204 6886</h4>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    </aside>
+
     <aside class="bg-dark">
         <div class="container text-center">
             <div class="row">
@@ -359,6 +485,7 @@
             </div>
         </div>
     </aside>
+
     <aside class="bg-dark">
         <div class="container text-center">
             <div class="row">
@@ -383,7 +510,6 @@
             </div>
         </div>
     </aside>
-
+    
 </body>
-
 </html>
