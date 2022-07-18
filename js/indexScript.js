@@ -1,5 +1,9 @@
+var canvReference = document.getElementById("cubes");
 
-const renderer = new THREE.WebGLRenderer();
+var renderer = new THREE.WebGLRenderer({
+    antialias:true,
+    canvas: canvReference
+}); 
 renderer.setSize(window.innerWidth, window.innerHeight);
 document.body.appendChild(renderer.domElement);
 
